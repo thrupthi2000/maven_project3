@@ -1,12 +1,12 @@
 <html>
 <body>
-<h1><font color='red'>Welcome to MicroDegree DevOps Training <font></h1>
-<h2>Learn Here.. Lead Anywhere..!! </h2>
+<h1><font color='red'>Welcome to Amazon <font></h1>
+<h2>Purchase..pay from here </h2>
   <h2> Deployed the WebApp, using jenkins CI/CD </h2>
 
 
   
-  <h2> Call Us : + 91 - 88888 88888 </h2>
+  <h2> for any queries contact support </h2>
 
 </body>
 </html>
