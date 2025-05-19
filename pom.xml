@@ -8,8 +8,10 @@
   <name>maven_webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <sonar.host.url>http://3.238.75.191:9000/</sonar.host.url>
-    <sonar.login>sqa_36d46e6817bce8375af2f7e0ac4356df92c366a8</sonar.login>
+    <sonar.host.url>http://54.234.204.120:9000/</sonar.host.url>
+    <sonar.login>squ_516cd052ce59687d220da6479edc9f3d92cc03a4</sonar.login>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <distributionManagement>
@@ -39,6 +41,10 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.1</version>
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+        </configuration>
       </plugin>
     </plugins>
   </build>
